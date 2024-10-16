@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    background-color: hsl(179, 62%, 43%);
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    background-color: hsl(0, 0%, 100%);
+    width:100%;
+    height: 45%;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    margin: 2.5rem 0 1.5rem 2.5rem;
+}
+
+.value h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    margin: 0 0 .75rem 2.5rem;
+}
+
+.value p {
+    color: hsl(218, 22%, 67%);
+    width: 85%;
+    margin: 0 0 2rem 2.5rem;
+    line-height: 28px;
+}
+
+.subscription-features {
+    width:100%;
+    height: 55%;
+    display: flex;
+}
+
+.subscription-features h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin: 2.5rem 0 1.25rem 3rem
+}
+
+.subscription-features p {
+    color: hsl(0, 0%, 100%);
+}
+
+.subscription {
+    height: 100%;
+    width: 50%;
+}
+
+
+.price {
+    margin: 0 0 1rem 3rem;
+}
+
+.price p {
+    color: hsla(0, 0%, 100%, 0.664);
+}
+
+.full-access {
+    margin: 0 0 2rem 3rem;
+    color: hsla(0, 0%, 100%, 0.699);
+}
+
+span {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-right: .5rem;
+}
+
+
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 5px hsla(0, 0%, 2%, 0.116);
+    margin: 0 0 0 3rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(179, 60%, 47%);
+}
+
+.features {
+    background-color: hsl(179, 60%, 47%);
+    height: 100%;
+    width: 50%;
+}
+
+.features li {
+    list-style: none;
+    color: hsla(0, 0%, 100%, 0.829);
+    font-size: 14px;
+    line-height: 22.5px;
+    margin: 0 0 0 3rem;
+}
